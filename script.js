@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
-    // You can add more interactivity here
+document.getElementById('click-to-view').addEventListener('click', function() {
+    document.getElementById('first-screen').style.display = 'none';
+    document.getElementById('second-screen').style.display = 'flex';
 });
